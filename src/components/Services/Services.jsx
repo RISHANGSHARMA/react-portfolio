@@ -21,7 +21,7 @@ export const Services = () => {
     }, []);
 
     return (
-        <section className="services-section">
+        <section className="services-section" id="services">
             <h2 className="services-title">SERVICES</h2>
             <p className="services-subtitle">I will be able to help you with the following services</p>
             <div className="services-container">

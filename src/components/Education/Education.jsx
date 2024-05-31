@@ -3,7 +3,7 @@ import styles from "./Education.module.css";
 
 export const Education = () => {
   return (
-    <section className={styles.educationSection}>
+    <section className={styles.educationSection} id="education">
       <h2 className={styles.title}>Education</h2>
       <div className={styles.educationContainer}>
         <div className={styles.educationItem}>

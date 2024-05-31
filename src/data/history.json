@@ -1,7 +1,7 @@
 [
   {
-    "role": "CLoud/Devops Engineer",
-    "organisation": "Google",
+    "role": "Cloud/Devops Engineer",
+    "organisation": "Ernst & Young",
     "startDate": "Jan, 2022",
     "endDate": "Present",
     "experiences": ["Worked on Cloud/DevSecOps","Worked on IAM Implementation", "Reduced load times by 50%"],

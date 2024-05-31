@@ -8,14 +8,18 @@
   justify-content: space-between;
   padding-top: 61px;
   z-index: 2;
-  margin: 0 10%;
+  margin:  0%;
+  width: 100vw;
+  /* background: #19376d; */
+  background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
 }
 
 .title {
-  font-size: 30px;
+  font-size: 70px;
   font-weight: 600;
   text-decoration: none;
   color: var(--color-text);
+ 
 }
 
 
