@@ -22,6 +22,13 @@
  
 }
 
+.title .icon {  /* Target the icon within the title */
+  margin-right: 0px;  /* Add some space between the icon and text */
+  font-size: 28px;   /* Adjust the icon size as needed */
+  vertical-align: middle; /* Vertically align with text */
+  margin-bottom:15px;
+  margin-top: 5px;
+}
 
 .menuBtn {
   display: none;

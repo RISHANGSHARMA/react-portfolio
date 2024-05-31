@@ -8,7 +8,10 @@ export const Navbar = () => {
 
   return (
     <nav className={styles.navbar}>
-      <a className={styles.title} href="/">Rishang's Portfolio</a>
+<a className={styles.title} href="/">
+  <img src={getImageUrl("nav/R.webp")} alt="Icon" className={styles.icon} />
+  Rishang's Portfolio
+</a>
       <div className={styles.menu}>
         <img
           className={styles.menuBtn}
