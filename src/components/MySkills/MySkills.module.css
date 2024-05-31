@@ -1,0 +1,117 @@
+:root {
+  --color-bg: #282c34;
+  --color-text: #ffffff;
+  --color-primary: #61dafb;
+  --color-secondary: #414a4c;
+  --color-dark: #1c1f23;
+}
+
+.light-mode {
+  --color-bg: #ffffff;
+  --color-text: #000000;
+  --color-primary: #61dafb;
+  --color-secondary: #f0f0f0;
+  --color-dark: #dcdcdc;
+}
+
+.skillsSection {
+  
+  /* background-color: var(--color-bg); */
+  color: var(--color-text);
+  position: relative;
+  background-color: rgba(12, 12, 12, 0.6);
+  border-radius: 15px;
+  padding: 73px;
+  margin-top: 129px;
+  z-index: 2;
+  margin-left: 10%;
+  margin-right: 10%;
+  
+}
+
+.title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: var(--color-primary);
+}
+
+.skillsImage {
+  display: block;
+  margin: 0 auto 2rem auto;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.skillsContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  justify-content: center;
+  
+}
+
+.skillCategory {
+  padding: 1rem;
+  border: 1px solid var(--color-secondary);
+  border-radius: 8px;
+  background-color: var(--color-dark);
+  color: var(--color-text);
+  transition: transform 0.3s ease-in-out;
+}
+
+.skillCategory:hover {
+  transform: scale(1.05);
+}
+
+.skillCategory h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--color-primary);
+}
+
+.skillCategory p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.progressBar {
+  width: 100%;
+  background-color: var(--color-secondary);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 10px;
+  background-color: var(--color-primary);
+}
+
+
+.topBlur {
+  position: absolute;
+  width: 50vw;
+  height: 50vw;
+  min-width: 350px;
+  min-width: 350px;
+  top: -128px;
+  left: -1vw;
+  border-radius: 764px;
+  background: rgba(25, 55, 109, 0.7);
+  filter: blur(100px);
+  z-index: -1;
+}
+
+.bottomBlur {
+  position: absolute;
+  width: 70vw;
+  height: 50vw;
+  min-width: 350px;
+  min-width: 250px;
+  top: 246px;
+  right: -60vw;
+  border-radius: 764px;
+  background: rgba(25, 55, 109, 0.7);
+  filter: blur(100px);
+  z-index: -1;
+}

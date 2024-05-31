@@ -1,0 +1,28 @@
+[
+    {
+      "icon": "cloud",
+      "title": "CLOUD ARCHITECTURE AND OPTIMIZATION",
+      "description": "Let me skillfully design, implement, and optimize secure, scalable, and cost-efficient cloud architectures on Azure and AWS for your business. I’ll enhance your operational agility, reduce infrastructure costs, align your cloud solutions with your goals, boost scalability for dynamic workloads, and fortify your cloud security posture."
+    },
+    {
+      "icon": "code",
+      "title": "WEB DEVELOPMENT",
+      "description": "Let me build your responsive and dynamic web application from concept to deployment. My expertise in Bootstrap, React.js, MongoDB, HTML, CSS, JavaScript, and Node.js ensures a visually appealing and well-structured solution. Contact me to discuss your project."
+    },
+    {
+      "icon": "user-shield",
+      "title": "IDENTITY AND ACCESS MANAGEMENT (IAM)",
+      "description": "Partner with me to implement robust IAM solutions including Azure Active Directory, hybrid identities, SSO, MFA, and RBAC. My IAM expertise will safeguard your sensitive data and systems, streamline user experience and onboarding processes, ensure regulatory compliance (e.g., GDPR, SOC 2), and proactively enhance your organization’s security posture."
+    },
+    {
+      "icon": "infinity",
+      "title": "DEVOPS AND CI/CD AUTOMATION",
+      "description": "Let me establish comprehensive CI/CD pipelines for your business with tools like Jenkins, Azure DevOps, and AWS CodePipeline, seamlessly integrating security testing (SAST, DAST) for enhanced code quality and vulnerability reduction. I’ll automate your deployment and infrastructure management using IaC tools (Terraform, ARM templates) to accelerate software delivery, improve reliability, reduce manual errors, and foster streamlined collaboration within your teams."
+    },
+    {
+      "icon": "lock",
+      "title": "CLOUD SECURITY",
+      "description": "Collaborate with me to develop and implement comprehensive cloud security strategies covering network security, vulnerability management, threat detection/response, security policies, and compliance. I’ll leverage tools like Azure Security Center, AWS Security Hub, and third-party solutions to proactively protect your sensitive data, increase your resilience against cyberattacks, ensure compliance with industry regulations, safeguard your reputation, and minimize business disruptions."
+    }
+  ]
+  

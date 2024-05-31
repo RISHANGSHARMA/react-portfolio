@@ -26,5 +26,26 @@
   {
     "title": "Figma",
     "imageSrc": "skills/figma.png"
+  },
+  {
+    "title": "Cyber Security",
+    "imageSrc": "skills/IAM.png"
+  },
+  {
+    "title": "Okta",
+    "imageSrc": "skills/okta.png"
+  },
+  {
+    "title": "kubernetes",
+    "imageSrc": "skills/kubernetes.png"
+  },
+  {
+    "title": "Azure",
+    "imageSrc": "skills/azure.svg"
+  },
+  {
+    "title": "AWS",
+    "imageSrc": "skills/aws.png"
   }
+  
 ]

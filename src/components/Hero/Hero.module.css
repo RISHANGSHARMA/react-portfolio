@@ -20,17 +20,18 @@
 }
 
 .title {
-  font-size: 72px;
+  color: var(--color-text);
+  font-size: 50px;
   font-weight: 900;
   margin-bottom: 33px;
   font-family: var(--font-roboto);
-  background: linear-gradient(
+  /* background: linear-gradient(
     90deg,
     rgba(255, 255, 255, 1) 70%,
     rgba(255, 255, 255, 0) 120%
   );
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  -webkit-background-clip: text; */
 }
 
 .description {
@@ -51,7 +52,7 @@
 }
 
 .heroImg {
-  width: 50%;
+  width: 30%;
   z-index: 1;
 
   animation-name: floating;

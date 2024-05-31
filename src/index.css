@@ -8,3 +8,28 @@
 html{
   scroll-behavior: smooth;
 }
+
+:root {
+  --color-bg: #282c34;
+  --color-text: #ffffff;
+  --color-primary: #61dafb;
+  --color-secondary: #414a4c;
+  --color-dark: #1c1f23;
+}
+
+.light-mode {
+  --color-bg: #ffffff;
+  --color-text: #000000;
+  --color-primary: #61dafb;
+  --color-secondary: #f0f0f0;
+  --color-dark: #dcdcdc;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: Arial, sans-serif;
+}

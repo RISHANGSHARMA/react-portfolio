@@ -1,0 +1,73 @@
+[
+    {
+      "category": "Cloud Platforms",
+      "skills": ["Azure", "AWS"],
+      "level": 90
+    },
+    {
+      "category": "IAM/IGA Tool",
+      "skills": ["Microsoft Entra ID", "Forgerock", "Okta", "Saviynt"],
+      "level": 85
+    },
+    {
+      "category": "Containerization and Orchestration",
+      "skills": ["Docker", "Kubernetes", "Docker Swarm", "Microsoft Azure Kubernetes Service (AKS)", "Amazon ECS (Elastic Container Service)", "Ansible/Puppet"],
+      "level": 80
+    },
+    {
+      "category": "Artifact Management",
+      "skills": ["JFrog", "DockerHub"],
+      "level": 75
+    },
+    {
+      "category": "Scripting Languages",
+      "skills": ["Python", "Bash", "PowerShell"],
+      "level": 80
+    },
+    {
+      "category": "Web Development",
+      "skills": ["Frontend: React, Bootstrap", "Backend: Python, NodeJS, Java"],
+      "level": 85
+    },
+    {
+      "category": "Databases",
+      "skills": ["MongoDB", "MySQL", "PostgreSQL"],
+      "level": 75
+    },
+    {
+      "category": "Agile Methodologies",
+      "skills": ["Scrum", "Kanban"],
+      "level": 70
+    },
+    {
+      "category": "CI/CD and Build Tools",
+      "skills": ["Jenkins", "Azure DevOps", "Maven", "npm", "pip"],
+      "level": 85
+    },
+    {
+      "category": "Version Control Systems",
+      "skills": ["Git", "GitHub", "GitLab"],
+      "level": 90
+    },
+    {
+      "category": "SCA, SAST, DAST Tools",
+      "skills": ["OWASP Dependency Check", "SonarQube", "Trivy", "OWASP ZAP"],
+      "level": 75
+    },
+    {
+      "category": "Tools/Productivity",
+      "skills": ["Jira", "Confluence", "Microsoft Office (Word, PowerPoint, Excel, Project)"],
+      "level": 80
+    },
+    {
+      "category": "Infrastructure as Code",
+      "skills": ["Terraform", "ARM Templates"],
+      "level": 85
+    },
+    {
+      "category": "Operating Systems",
+      "skills": ["Linux (CentOS, Ubuntu)", "Windows Server 2016/2019"],
+      "level": 80
+    }
+  ]
+  

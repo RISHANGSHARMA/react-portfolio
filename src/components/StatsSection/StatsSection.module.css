@@ -1,0 +1,57 @@
+/* StatsSection.module.css */
+@import "../../vars.css";
+
+/* StatsSection.module.css */
+.statsSection {
+   margin-top: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 20vh;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: url('../../../assets/skills/uottawa.jpeg') no-repeat center center / cover;
+  background-attachment: fixed; /* Parallax effect */
+}
+
+.backImg {
+  display: none; /* Hide the img element as we are using CSS background */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(57, 57, 86, 0.5);
+  z-index: 0;
+}
+
+.stat {
+  position: relative;
+  z-index: 1;
+}
+
+.icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.counter {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+body {
+  background: #f4f4f4;
+}
