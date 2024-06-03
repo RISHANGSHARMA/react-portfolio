@@ -1,3 +1,4 @@
+/* Hero.module.css */
 @import "../../vars.css";
 
 .container {
@@ -5,13 +6,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 49px;
+  margin-top: 23px;
   z-index: 1;
   margin-left: 10%;
   margin-right: 10%;
   padding-top: 80px; /* Adjust this value based on your navbar height */
-  
-  
 }
 
 .content {
@@ -28,23 +27,40 @@
   font-weight: 900;
   margin-bottom: 33px;
   font-family: var(--font-roboto);
-  /* background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 70%,
-    rgba(255, 255, 255, 0) 120%
-  );
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text; */
-}
-
-.h1{
-  margin-top: 49px;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 4px solid var(--color-primary);
+  animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 
 .description {
   font-size: 30px;
   font-family: var(--font-roboto);
   margin-bottom: 52px;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 4px solid var(--color-primary);
+  opacity: 0; /* Initially hide the description */
+  transition: opacity 0.5s ease-in; /* Add a transition for smooth fade-in */
+}
+
+.description.show {
+  opacity: 1; /* Show the description */
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes typing2 {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: var(--color-primary); }
 }
 
 .contactBtn {
@@ -61,7 +77,6 @@
 .heroImg {
   width: 30%;
   z-index: 1;
-
   animation-name: floating;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -69,15 +84,9 @@
 }
 
 @keyframes floating {
-  0% {
-    transform: translate(0, 0px);
-  }
-  50% {
-    transform: translate(0, 10px);
-  }
-  100% {
-    transform: translate(0, -0px);
-  }
+  0% { transform: translate(0, 0px); }
+  50% { transform: translate(0, 10px); }
+  100% { transform: translate(0, -0px); }
 }
 
 .topBlur {
@@ -111,28 +120,27 @@
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column-reverse;
-
+    align-items: center;
   }
 
   .content {
     align-items: center;
+    text-align: center;
   }
 
   .title {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .description {
     font-size: 1rem;
   }
-  .contactBtn{
-      font-size: 1rem;
-      text-decoration: none;
-      /* background-color: var(--color-primary); */
-      /* color: var(--color-text); */
-      /* border-radius: 1%; */
-      
-      
-       }
+
+  .contactBtn {
+    font-size: 1rem;
   }
 
+  .heroImg {
+    width: 50%;
+  }
+}
