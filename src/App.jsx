@@ -16,15 +16,13 @@ function App() {
 
     const [darkMode, setDarkMode] = useState(true);
 
-    const toggleDarkMode = () => {
-      setDarkMode(!darkMode);
-      document.documentElement.classList.toggle("light-mode", !darkMode);
-    };
+    // const toggleDarkMode = () => {
+    //   setDarkMode(!darkMode);
+    //   document.documentElement.classList.toggle("light-mode", !darkMode);
+    // };
     return <div classname={styles.App}>
             <Navbar />
-            <button onClick={toggleDarkMode} className={styles.toggleBtn}>
-        Toggle Mode
-      </button>
+            {/* <button onClick={toggleDarkMode} className={styles.toggleBtn}> Toggle Mode </button> */}
             <Hero />
             <About />
             <MySkills />

@@ -31,7 +31,7 @@ export const StatsSection = () => {
   return (
     
         
-    <section className={styles.statsSection}>
+    <section className={styles.statsSection} id="stats">
       <div className={styles.overlay}></div>
       <div className={styles.stat}>
         <FontAwesomeIcon icon={faCheckCircle} className={styles.icon} />

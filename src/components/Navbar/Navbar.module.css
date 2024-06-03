@@ -2,93 +2,114 @@
 
 .navbar {
   background-color: var(--color-primary);
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 61px;
-  z-index: 2;
-  margin:  0%;
-  width: 100vw;
-  /* background: #19376d; */
+  padding: 10px 10%;
+  width: 100%;
   background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.scrolled {
+  padding: 10px 10%;
+  background: var(--color-primary);
 }
 
 .title {
-  font-size: 70px;
+  font-size: 1.5rem;
   font-weight: 600;
   text-decoration: none;
   color: var(--color-text);
- 
+  display: flex;
+  align-items: center;
+  transition: font-size 0.3s ease;
 }
 
-.title .icon {  /* Target the icon within the title */
-  margin-right: 0px;  /* Add some space between the icon and text */
-  font-size: 28px;   /* Adjust the icon size as needed */
-  vertical-align: middle; /* Vertically align with text */
-  margin-bottom:15px;
-  margin-top: 5px;
+.title .icon {
+  margin-right: 1px;
+  margin-left: 0%;
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  transition: width 0.3s ease, height 0.3s ease;
 }
 
-.menuBtn {
-  display: none;
+.portfolioName {
+  display: inline-block;
 }
 
 .menu {
   display: flex;
+  align-items: center;
+}
+
+.menuBtn {
+  display: none;
+  cursor: pointer;
 }
 
 .menuItems {
   display: flex;
-  gap: 47px;
+  gap: 20px;
   list-style: none;
 }
 
 .menuItems a {
-  font-size: 25px;
+  font-size: 1rem;
   color: var(--color-text);
   text-decoration: none;
 }
 
 @media screen and (max-width: 830px) {
   .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .menu {
-    position: absolute;
-    right: 0;
-    margin-right: 10%;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 11px;
-    z-index: 3;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:10px;
+    padding-right: 10px;
+    align-items:start
   }
 
   .menuBtn {
     display: block;
     cursor: pointer;
+    z-index: index 1;;
+    
   }
 
   .menuItems {
     display: none;
     flex-direction: column;
-    align-items: center;
-    gap: 13px;
-    border-radius: 10px;
-    background: rgb(25, 55, 109);
-    background: linear-gradient(
-      0deg,
-      rgba(25, 55, 109, 0.2) 0%,
-      rgba(25, 55, 109, 1) 100%
-    );
-    padding: 24px 33px;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    align-items: flex-start;
+    background: var(--color-secondary);
+    position: absolute;
+    top: 100%;
+    right: 0;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
   }
 
   .menuOpen {
     display: flex;
-    z-index: 1;
+  }
+
+  .title .icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .portfolioName {
+    display: none;
+  }
+
+  .scrolled .portfolioName {
+    display: none;
   }
 }

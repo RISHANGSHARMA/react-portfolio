@@ -1,9 +1,8 @@
-/* StatsSection.module.css */
 @import "../../vars.css";
 
 /* StatsSection.module.css */
 .statsSection {
-   margin-top: 100px;
+  margin-top: 100px;
   margin-left: 10%;
   margin-right: 10%;
   display: flex;
@@ -54,4 +53,31 @@ p {
 
 body {
   background: #f4f4f4;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 830px) {
+/*   
+  .statsSection {
+    flex-direction: column;
+    height: auto;
+    margin: 50px 5%;
+    padding: 20px;
+    background-attachment: scroll; /* Disable parallax effect on smaller screens 
+  }
+  */
+   
+
+
+  .icon {
+    font-size: 1rem;
+  }
+
+  .counter {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.6rem;
+  }
 }

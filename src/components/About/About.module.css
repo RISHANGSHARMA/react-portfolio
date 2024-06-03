@@ -1,3 +1,4 @@
+/* About.module.css */
 @import "../../vars.css";
 
 .container {
@@ -12,7 +13,7 @@
 }
 
 .title {
-  color:aqua;
+  color: aqua;
   font-size: 35px;
   font-weight: 700;
   letter-spacing: 1.75px;
@@ -21,50 +22,34 @@
   padding-bottom: 2%;
 }
 
-/* .content {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.aboutImage {
-  display: flex;
-  width: 90%;
-  margin:0%;
-  margin-top:0%;
-  font-size: 20px;
-  font-weight: 700;
-  padding: 90%;
-  font-size: 30px;
-
-} 
-
-.aboutItems {
-  color: var(--color-text);
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-}
-*/
-
 .content {
   display: flex;
-  flex-direction: row; /* Key change: row instead of column */
+  flex-direction: row; /* Maintain row layout */
   align-items: flex-start; /* Align items to the top */
-  gap: 50px; /* Add spacing between text and skills */
+  gap: 50px; /* Spacing between text and skills */
 }
 
 .aboutText {
-  flex: 2;  /* Takes up more space than the skills list */
-  width: 60%; /* Adjust to your liking */
-  padding: 20px; /* Add some padding for visual comfort */
-  border-right: 1px solid rgba(255, 255, 255, 0.2); /* Subtle divider (optional) */
+  flex: 2; /* Takes up more space than the skills list */
+  width: 60%; /* Adjust as needed */
+  padding: 20px; /* Padding for visual comfort */
+  border-right: 1px solid rgba(255, 255, 255, 0.2); /* Subtle divider */
+  border-radius: 20px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(28, 155, 197, 0.42) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
 }
 
 .aboutText p {
-  font-size: 25px; 
-  line-height: 1.6; 
-  color: var(--color-text); /* Assuming you have this variable in vars.css */
+  font-size: 20px;
+  line-height: 1.6;
+  color: var(--color-text); /* Assuming this variable exists in vars.css */
+}
+
+.shortAboutText {
+  display: none;
 }
 
 .aboutItems {
@@ -72,8 +57,9 @@
   width: 40%;
   display: flex;
   flex-direction: column;
-  gap: 20px; /* Adjust spacing between skills */
+  gap: 20px; /* Spacing between skills */
 }
+
 .aboutItem {
   display: flex;
   flex-direction: row;
@@ -96,9 +82,9 @@
 }
 
 .aboutItem img {
-  width: 50px;    /* Reduce icon size */
-  height: 50px;   /* Maintain aspect ratio */
-  margin-right: 15px; /* Add spacing between icon and text */
+  width: 50px; /* Icon size */
+  height: 50px; /* Maintain aspect ratio */
+  margin-right: 15px; /* Spacing between icon and text */
 }
 
 .aboutItem h3 {
@@ -109,32 +95,66 @@
 
 .aboutItem p {
   padding-top: 1%;
-  font-size: 25px;
+  font-size: 20px;
 }
-
-
 
 @media screen and (max-width: 830px) {
   .container {
-    background-color: transparent;
-    padding-left: 0;
-    padding-right: 0;
+    margin: 50px 5%;
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 2rem;
   }
 
   .content {
-    flex-direction: column;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items */
+    gap: 20px;
   }
 
-  .aboutImage {
-    display: none;
+  .aboutText {
+    display: none; /* Hide long text on small screens */
+  }
+
+  .shortAboutText {
+    display: block; /* Show short text on small screens */
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    background-image: linear-gradient(
+      90deg,
+      rgba(28, 155, 197, 0.42) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+
+  .shortAboutText p {
+    font-size: 1rem;
   }
 
   .aboutItems {
-    margin-top: 29px;
+    width: 100%;
   }
 
   .aboutItem {
-    padding-left: 0;
-    padding-right: 0;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .aboutItem img {
+    margin-bottom: 10px;
+  }
+
+  .aboutItem h3 {
+    font-size: 1.5rem;
+  }
+
+  .aboutItem p {
+    font-size: 1rem;
   }
 }

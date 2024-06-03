@@ -1,3 +1,4 @@
+/* MySkills.module.css */
 :root {
   --color-bg: #282c34;
   --color-text: #ffffff;
@@ -15,8 +16,6 @@
 }
 
 .skillsSection {
-  
-  /* background-color: var(--color-bg); */
   color: var(--color-text);
   position: relative;
   background-color: rgba(12, 12, 12, 0.6);
@@ -26,7 +25,6 @@
   z-index: 2;
   margin-left: 10%;
   margin-right: 10%;
-  
 }
 
 .title {
@@ -48,7 +46,6 @@
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   justify-content: center;
-  
 }
 
 .skillCategory {
@@ -87,12 +84,10 @@
   background-color: var(--color-primary);
 }
 
-
 .topBlur {
   position: absolute;
   width: 50vw;
   height: 50vw;
-  min-width: 350px;
   min-width: 350px;
   top: -128px;
   left: -1vw;
@@ -106,7 +101,6 @@
   position: absolute;
   width: 70vw;
   height: 50vw;
-  min-width: 350px;
   min-width: 250px;
   top: 246px;
   right: -60vw;
@@ -114,4 +108,41 @@
   background: rgba(25, 55, 109, 0.7);
   filter: blur(100px);
   z-index: -1;
+}
+
+@media screen and (max-width: 830px) {
+  .skillsSection {
+    margin: 50px 5%;
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .skillsImage {
+    width: 150px;
+    margin-bottom: 1.5rem;
+  }
+
+  .skillsContainer {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .skillCategory {
+    padding: 0.5rem;
+  }
+
+  .skillCategory h3 {
+    font-size: 1.25rem;
+  }
+
+  .skillCategory p {
+    font-size: 0.875rem;
+  }
+
+  .progress {
+    height: 8px;
+  }
 }
