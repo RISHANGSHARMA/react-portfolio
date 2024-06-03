@@ -14,6 +14,7 @@
   z-index: 1000;
   transition: all 0.3s ease;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
 }
 
 .scrolled {
@@ -71,33 +72,45 @@
     flex-direction: row;
     justify-content: space-between;
     padding:10px;
-    padding-right: 10px;
-    align-items:start
+    align-items:start;
   }
 
+  .menu {
+    position: absolute;
+    right: 0;
+    margin-right: 0%;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 11px;
+    z-index: 3;
+  }
+  
   .menuBtn {
     display: block;
     cursor: pointer;
-    z-index: index 1;;
+    position: absolute;   
     
   }
 
   .menuItems {
     display: none;
     flex-direction: column;
-    align-items: flex-start;
-    background: var(--color-secondary);
-    position: absolute;
-    top: 100%;
-    right: 0;
-    padding: 1rem;
-    border-radius: 0.5rem;
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
-    width: 100%;
+    align-items: center;
+    gap: 13px;
+    border-radius: 10px;
+    background: rgb(25, 55, 109);
+    background: linear-gradient(
+      0deg,
+      rgba(25, 55, 109, 0.2) 0%,
+      rgba(25, 55, 109, 1) 100%
+    );
+    padding: 24px 33px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
   }
 
   .menuOpen {
     display: flex;
+    z-index: 1;
   }
 
   .title .icon {
