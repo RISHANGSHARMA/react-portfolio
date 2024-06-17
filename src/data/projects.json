@@ -2,7 +2,7 @@
   {
     "title": "Project A:CanBeWell",
     "imageSrc": "projects/project.png",
-    "description": "In collaboration with medical researchers at the University of Ottawa, I developed CanBeWell Transgender, a comprehensive web app designed to empower transgender individuals to take charge of their health.",
+    "description": "Developed CanBeWell Transgender web app to empower transgender individuals to take charge of their health.",
     "skills": ["React", "Python", "FireBase"],
     "demo": "https://canbewell2-transgender.web.app/",
     "source": "https://github.com/uoForms/App-CANBeWell"
@@ -10,7 +10,7 @@
   {
     "title": "Project B:Transforming Data into Visual Narratives",
     "imageSrc": "projects/project.png",
-    "description": "Superstore Sales: My interactive dashboards revealed hidden patterns in sales data.",
+    "description": "Interactive dashboards revealed hidden patterns in sales data.",
     "skills": ["Data Science", "Tableau", "Python", "KNN"],
     "demo": "https://public.tableau.com/app/profile/rishang.sharma/viz/SUPERSTORESALESWORLDWIDE/SUPERSTORESALESWORLDWIDE",
     "source": "https://github.com/RISHANGSHARMA/Tableau-Data-Analysis-Viz-Links"
