@@ -1,14 +1,14 @@
 [
   {
-    "title": "Project A:CanBeWell",
+    "title": "Project A: CanBeWell",
     "imageSrc": "projects/project.png",
-    "description": "Developed CanBeWell Transgender web app to empower transgender individuals to take charge of their health.",
+    "description": "Developed Transgender web app to empower transgender individuals to take charge of their health.",
     "skills": ["React", "Python", "FireBase"],
     "demo": "https://canbewell2-transgender.web.app/",
     "source": "https://github.com/uoForms/App-CANBeWell"
   },
   {
-    "title": "Project B:Transforming Data into Visual Narratives",
+    "title": "Project B: Transforming Data into Visuals",
     "imageSrc": "projects/project.png",
     "description": "Interactive dashboards revealed hidden patterns in sales data.",
     "skills": ["Data Science", "Tableau", "Python", "KNN"],
