@@ -1,26 +1,26 @@
 [
   {
-    "title": "Project A",
+    "title": "Project A:CanBeWell",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "In collaboration with medical researchers at the University of Ottawa, I developed CanBeWell Transgender, a comprehensive web app designed to empower transgender individuals to take charge of their health.",
+    "skills": ["React", "Python", "FireBase"],
+    "demo": "https://canbewell2-transgender.web.app/",
+    "source": "https://github.com/uoForms/App-CANBeWell"
   },
   {
-    "title": "Project B",
+    "title": "Project B:Transforming Data into Visual Narratives",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "Superstore Sales: My interactive dashboards revealed hidden patterns in sales data.",
+    "skills": ["Data Science", "Tableau", "Python", "KNN"],
+    "demo": "https://public.tableau.com/app/profile/rishang.sharma/viz/SUPERSTORESALESWORLDWIDE/SUPERSTORESALESWORLDWIDE",
+    "source": "https://github.com/RISHANGSHARMA/Tableau-Data-Analysis-Viz-Links"
   },
   {
-    "title": "Project C",
+    "title": "All Projects",
     "imageSrc": "projects/project.png",
     "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "skills": ["Limitless"],
+    "Projects": "https://www.linkedin.com/in/rishangsharma/details/projects/",
+    "source": "https://github.com/RISHANGSHARMA"
   }
 ]
