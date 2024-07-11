@@ -48,7 +48,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>FullStack Developer</h3>
               <p>
-                Experience in modern FullStack technologies (e.g., React, Angular, Node.js,Python,Django) to build responsive and visually appealing Websites.
+                Experience in modern FullStack technologies (e.g., React, Angular, Node.js,Python, Django) to build responsive and visually appealing Websites.
               </p>
             </div>
           </li>
