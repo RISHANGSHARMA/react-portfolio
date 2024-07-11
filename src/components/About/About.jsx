@@ -28,31 +28,18 @@ export const About = () => {
           </div>
         ) : (
           <div className={styles.aboutText}>
-            <p>
-              As a seasoned Cyber Engineering Consultant at EY, I specialize in architecting and 
-              implementing highly secure, scalable, and cost-effective cloud solutions on 
-              Microsoft Azure. With a focus on security, identity management, automation, and 
-              CI/CD, I consistently deliver large-scale projects exceeding CAD $1 million while 
-              managing teams of 10+ specialists. <br />
-              <br />
-              My expertise in cloud architecture enables me to design solutions that drive 
-              operational efficiency and cost reduction, ensuring a seamless transition to Azure. 
-              I prioritize security from the ground up, safeguarding data integrity and ensuring 
-              compliance with industry regulations. Through Azure Active Directory 
-              management, I deliver streamlined user experiences with hybrid identities and 
-              single sign-on capabilities. <br />
-              <br />
-              I possess a deep understanding of DevOps concepts and tools including 
-              PowerShell, Azure CLI, Jenkins, and Terraform, enabling me to create highly 
-              automated infrastructure and deployment processes. Proficient in 
-              containerization technologies (Docker, Kubernetes), I optimize application 
-              deployment and management. By proactively integrating security into CI/CD 
-              pipelines with SAST and DAST tools, I mitigate vulnerabilities early in the 
-              development lifecycle. <br />
-              <br />
-              Let's connect and discuss how I can leverage my expertise to deliver secure, 
-              efficient, and innovative cloud solutions tailored to your needs.
-            </p>
+              <p>
+                As a Versatile Tech Solutions Architect, I bring a wealth of experience in Full Stack Development, Cloud/DevOps Engineering, and Cyber Security. At Ernst & Young, I have led the architecture and implementation of secure, scalable, and cost-effective solutions across diverse technology stacks, including Microsoft Azure, AWS, and cutting-edge development frameworks such as React, Angular and Django.<br />
+                <br />
+                My comprehensive approach ensures seamless integration and operational efficiency, whether transitioning to the cloud, optimizing deployment processes, or enhancing application security. With a strong foundation in both backend and frontend development, I create robust and user-friendly web applications that drive business value.<br />
+                <br />
+                I specialize in designing and implementing automated CI/CD pipelines, leveraging tools like Jenkins, GitLab CI, and Terraform, and managing containerized environments using Docker and Kubernetes. My expertise extends to proactive security integration, utilizing SAST and DAST tools to mitigate vulnerabilities early in the development lifecycle.<br />
+                <br />
+                In addition to my technical acumen, I excel in team leadership, guiding cross-functional teams to deliver high-impact projects. My experience in identity management in Cyber security, particularly with Azure Active Directory and Okta SSO ensures that solutions are not only efficient but also secure and compliant with industry standards.<br />
+                <br />
+                Let’s connect to explore how my diverse skill set can deliver innovative and secure solutions tailored to meet your organization's needs.
+              </p>
+
           </div>
         )}
         <ul className={styles.aboutItems}>
