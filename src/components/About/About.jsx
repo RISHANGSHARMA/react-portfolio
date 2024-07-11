@@ -29,7 +29,7 @@ export const About = () => {
         ) : (
           <div className={styles.aboutText}>
               <p>
-                As a Versatile Tech Solutions Architect, I bring a wealth of experience in Full Stack Development, Cloud/DevOps Engineering, and Cyber Security. At Ernst & Young, I have led the architecture and implementation of secure, scalable, and cost-effective solutions across diverse technology stacks, including Microsoft Azure, AWS, and cutting-edge development frameworks such as React, Angular and Django.<br />
+                As a Versatile Tech Solutions Engineer, I bring a wealth of experience in Full Stack Development, Cloud/DevOps Engineering, and Cyber Security. At Ernst & Young, I have led the architecture and implementation of secure, scalable, and cost-effective solutions across diverse technology stacks, including Microsoft Azure, AWS, and cutting-edge development frameworks such as React, Angular and Django.<br />
                 <br />
                 My comprehensive approach ensures seamless integration and operational efficiency, whether transitioning to the cloud, optimizing deployment processes, or enhancing application security. With a strong foundation in both backend and frontend development, I create robust and user-friendly web applications that drive business value.<br />
                 <br />

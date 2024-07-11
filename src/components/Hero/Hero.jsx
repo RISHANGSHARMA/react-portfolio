@@ -22,7 +22,7 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Rishang Sharma</h1>
         <p className={styles.description}>
-        Versatile Tech Solutions Architect with Expertise in FullStack Development, Cloud/DevOps, and Cyber Security 
+        Versatile Tech Solutions Engineer (FullStack, Cloud/DevOps, Cyber Security)
         </p>
         <a href="mailto:rishangsharma@email.com" className={styles.contactBtn}>
           Contact Me
