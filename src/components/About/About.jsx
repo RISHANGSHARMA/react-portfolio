@@ -43,6 +43,15 @@ export const About = () => {
           </div>
         )}
         <ul className={styles.aboutItems}>
+        <li className={styles.aboutItem}>
+            <img src={getImageUrl("about/front.png")} alt="UI icon" />
+            <div className={styles.aboutItemText}>
+              <h3>FullStack Developer</h3>
+              <p>
+                Experience in modern FullStack technologies (e.g., React, Angular, Node.js,Python,Django) to build responsive and visually appealing Websites.
+              </p>
+            </div>
+          </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cloud.png")} alt="Cloud icon" />
             <div className={styles.aboutItemText}>
@@ -61,15 +70,7 @@ export const About = () => {
               </p>
             </div>
           </li>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/front.png")} alt="UI icon" />
-            <div className={styles.aboutItemText}>
-              <h3>FrontEnd Developer</h3>
-              <p>
-                Experience in modern front-end technologies (e.g., React, Angular, Vue.js) to build responsive and visually appealing interfaces.
-              </p>
-            </div>
-          </li>
+          
         </ul>
       </div>
     </section>
