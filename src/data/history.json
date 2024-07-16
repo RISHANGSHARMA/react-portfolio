@@ -1,14 +1,14 @@
 [
   {
-    "role": "Cloud/Devops Engineer",
+    "role": " Staff Engineer",
     "organisation": "Ernst & Young",
     "startDate": "Jan, 2022",
     "endDate": "Present",
-    "experiences": ["Worked on Cloud/DevSecOps","Worked on IAM Implementation", "Reduced load times by 50%"],
+    "experiences": ["FullSTack Developement","Worked on Cloud/DevSecOps","Worked on IAM Implementation"],
     "imageSrc": "history/EY.svg.png"
   },
   {
-    "role": "Software Engineer",
+    "role": "Senior Software Engineer",
     "organisation": "Toyota Canada",
     "startDate": "Jul, 2021",
     "endDate": "Dec, 2021",

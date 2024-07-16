@@ -23,7 +23,7 @@ export const About = () => {
         {isMobile ? (
           <div className={styles.shortAboutText}>
             <p>
-              As a seasoned Cyber Engineering Consultant at EY, I specialize in cloud solutions on Microsoft Azure, focusing on security, identity management, automation, and CI/CD.
+            As a Versatile Tech Solutions Engineer, I bring a wealth of experience in Full Stack Development, Cloud/DevOps Engineering, and Cyber Security.Let’s connect to explore how my diverse skill set can deliver innovative and secure solutions tailored to meet your organization's needs.
             </p>
           </div>
         ) : (
